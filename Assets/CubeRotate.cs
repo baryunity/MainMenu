@@ -33,7 +33,7 @@ public class CubeRotate : MonoBehaviour
         } else
         {
             transform.Rotate(new Vector3(0, -1, 0) * Time.deltaTime * m_Speed, Space.World);
-            transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime * m_Speed / 5, Space.World);
+            transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime * m_Speed / 4, Space.World);
         }
     }
 
