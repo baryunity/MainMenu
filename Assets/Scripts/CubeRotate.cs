@@ -17,14 +17,13 @@ public class CubeRotate : MonoBehaviour
         {
             print("NULL rigidbody");
         }
-        print("tag = " + gameObject.tag + " <<<<<<<<<<<<<<<<<<<<<<\n");
     }
 
     void Update()
     {
         if (Input.GetKeyDown("space"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenuScene");
         }
 
         if (gameObject.tag == "Cube1")

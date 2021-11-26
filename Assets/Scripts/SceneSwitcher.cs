@@ -8,13 +8,11 @@ public class SceneSwitcher : MonoBehaviour
 {
     public void SwitchToCapsuleScene()
     {
-        print("SceneSwitcher: switch to capsule");  //FOO
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("CapsuleScene");
     }
 
     public void SwitchToCubesScene()
     {
-        print("SceneSwitcher: switch to cubes");  //FOO
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("CubePairScene");
     }
 }
