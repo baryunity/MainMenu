@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
+    public void Start()
+    {
+        print("2021 11 26 - 11:02");
+    }
+
     public void SwitchToCapsuleScene()
     {
         SceneManager.LoadScene("CapsuleScene");
