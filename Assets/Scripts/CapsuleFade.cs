@@ -1,6 +1,7 @@
 ﻿using System.Collections; 
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CapsuleFade : MonoBehaviour 
 {
@@ -16,6 +17,11 @@ public class CapsuleFade : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown("space"))
+        {
+            SceneManager.LoadScene(0);
+        }
+
         Color color = Color.Lerp(color1, color2, t);
         t += Time.deltaTime / duration;
         GetComponent<Renderer>().material.color = color;

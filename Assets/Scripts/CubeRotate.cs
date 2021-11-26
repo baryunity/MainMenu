@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CubeRotate : MonoBehaviour
 {
@@ -21,9 +22,9 @@ public class CubeRotate : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Y))
+        if (Input.GetKeyDown("space"))
         {
-            print("YYY key");
+            SceneManager.LoadScene(0);
         }
 
         if (gameObject.tag == "Cube1")
