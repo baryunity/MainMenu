@@ -2,7 +2,7 @@
 // https://www.youtube.com/watch?v=mGjqmK_O5jA
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; 
 
 public class SceneSwitcher : MonoBehaviour
 {
