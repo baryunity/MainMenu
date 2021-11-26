@@ -1,8 +1,8 @@
-﻿using System.Collections;
+﻿using System.Collections; 
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CapsuleFade : MonoBehaviour
+public class CapsuleFade : MonoBehaviour 
 {
     [SerializeField]
     private float duration = 0.55f;
