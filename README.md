@@ -1,1 +1,1 @@
-MainMenu
+MainMenu example app
