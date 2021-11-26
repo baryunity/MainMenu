@@ -1,1 +1,3 @@
-MainMenu example app
+# MainMenu
+
+Example Main Menu project
